@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "PKWLoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    self.window.rootViewController=[[UINavigationController alloc] initWithRootViewController:[[PKWLoginViewController alloc] initWithTableViewFrame:CGRectMake(0, 64, SCREEN_WIDTH, SCREEN_HEIGHT)]];
+    
+    [self.window makeKeyAndVisible];
+    
+    
     // Override point for customization after application launch.
     return YES;
 }

@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D8217371D3E1CFB0077850F /* PKDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8217361D3E1CFB0077850F /* PKDataModel.m */; };
+		3D8217581D3E1D710077850F /* PKTableView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D82173B1D3E1D710077850F /* PKTableView+Category.m */; };
+		3D8217591D3E1D710077850F /* PKIntroTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D82173E1D3E1D710077850F /* PKIntroTableViewCell.m */; };
+		3D82175A1D3E1D710077850F /* PKNullTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8217401D3E1D710077850F /* PKNullTableViewCell.m */; };
+		3D82175B1D3E1D710077850F /* PKOneButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8217421D3E1D710077850F /* PKOneButtonCell.m */; };
+		3D82175D1D3E1D710077850F /* PKTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8217461D3E1D710077850F /* PKTableViewCell.m */; };
+		3D82175E1D3E1D710077850F /* PKTableViewLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8217481D3E1D710077850F /* PKTableViewLineCell.m */; };
+		3D82175F1D3E1D710077850F /* PKNetWorkDataConstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D82174B1D3E1D710077850F /* PKNetWorkDataConstructor.m */; };
+		3D8217601D3E1D710077850F /* PKTableViewDataConstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D82174D1D3E1D710077850F /* PKTableViewDataConstructor.m */; };
+		3D8217611D3E1D710077850F /* PKIndexPathArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D82174F1D3E1D710077850F /* PKIndexPathArray.m */; };
+		3D8217621D3E1D710077850F /* PKTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8217511D3E1D710077850F /* PKTableView.m */; };
+		3D8217631D3E1D710077850F /* PKTableViewAdaptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8217531D3E1D710077850F /* PKTableViewAdaptor.m */; };
+		3D8217641D3E1D710077850F /* PKTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8217551D3E1D710077850F /* PKTableViewController.m */; };
+		3D8217651D3E1D710077850F /* PKTableViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8217571D3E1D710077850F /* PKTableViewHeaderView.m */; };
+		3D8217691D3E1D7D0077850F /* PKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8217681D3E1D7D0077850F /* PKViewController.m */; };
+		3D82176D1D3E1EF70077850F /* PKUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D82176C1D3E1EF70077850F /* PKUIButton.m */; };
+		3D8217791D3E28210077850F /* PKLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8217701D3E28210077850F /* PKLabel.m */; };
+		3D8217811D3E286F0077850F /* PKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8217801D3E286F0077850F /* PKTextField.m */; };
+		3D8217841D3E3E0D0077850F /* QMUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8217831D3E3E0D0077850F /* QMUIKit.m */; };
+		3DE3BA5B1D3F9E1A00CDB5DE /* NSString+Predicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE3BA581D3F9E1A00CDB5DE /* NSString+Predicate.m */; };
+		3DE3BA5C1D3F9E1A00CDB5DE /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE3BA5A1D3F9E1A00CDB5DE /* UIView+Animation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3D8217241D3E1CD10077850F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3D8217261D3E1CD10077850F /* libQMKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libQMKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D8217351D3E1CFB0077850F /* PKDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDataModel.h; sourceTree = "<group>"; };
+		3D8217361D3E1CFB0077850F /* PKDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDataModel.m; sourceTree = "<group>"; };
+		3D82173A1D3E1D710077850F /* PKTableView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PKTableView+Category.h"; sourceTree = "<group>"; };
+		3D82173B1D3E1D710077850F /* PKTableView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PKTableView+Category.m"; sourceTree = "<group>"; };
+		3D82173D1D3E1D710077850F /* PKIntroTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKIntroTableViewCell.h; sourceTree = "<group>"; };
+		3D82173E1D3E1D710077850F /* PKIntroTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKIntroTableViewCell.m; sourceTree = "<group>"; };
+		3D82173F1D3E1D710077850F /* PKNullTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKNullTableViewCell.h; sourceTree = "<group>"; };
+		3D8217401D3E1D710077850F /* PKNullTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKNullTableViewCell.m; sourceTree = "<group>"; };
+		3D8217411D3E1D710077850F /* PKOneButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKOneButtonCell.h; sourceTree = "<group>"; };
+		3D8217421D3E1D710077850F /* PKOneButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKOneButtonCell.m; sourceTree = "<group>"; };
+		3D8217451D3E1D710077850F /* PKTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKTableViewCell.h; sourceTree = "<group>"; };
+		3D8217461D3E1D710077850F /* PKTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKTableViewCell.m; sourceTree = "<group>"; };
+		3D8217471D3E1D710077850F /* PKTableViewLineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKTableViewLineCell.h; sourceTree = "<group>"; };
+		3D8217481D3E1D710077850F /* PKTableViewLineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKTableViewLineCell.m; sourceTree = "<group>"; };
+		3D82174A1D3E1D710077850F /* PKNetWorkDataConstructor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKNetWorkDataConstructor.h; sourceTree = "<group>"; };
+		3D82174B1D3E1D710077850F /* PKNetWorkDataConstructor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKNetWorkDataConstructor.m; sourceTree = "<group>"; };
+		3D82174C1D3E1D710077850F /* PKTableViewDataConstructor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKTableViewDataConstructor.h; sourceTree = "<group>"; };
+		3D82174D1D3E1D710077850F /* PKTableViewDataConstructor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKTableViewDataConstructor.m; sourceTree = "<group>"; };
+		3D82174E1D3E1D710077850F /* PKIndexPathArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKIndexPathArray.h; sourceTree = "<group>"; };
+		3D82174F1D3E1D710077850F /* PKIndexPathArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKIndexPathArray.m; sourceTree = "<group>"; };
+		3D8217501D3E1D710077850F /* PKTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKTableView.h; sourceTree = "<group>"; };
+		3D8217511D3E1D710077850F /* PKTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKTableView.m; sourceTree = "<group>"; };
+		3D8217521D3E1D710077850F /* PKTableViewAdaptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKTableViewAdaptor.h; sourceTree = "<group>"; };
+		3D8217531D3E1D710077850F /* PKTableViewAdaptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKTableViewAdaptor.m; sourceTree = "<group>"; };
+		3D8217541D3E1D710077850F /* PKTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKTableViewController.h; sourceTree = "<group>"; };
+		3D8217551D3E1D710077850F /* PKTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKTableViewController.m; sourceTree = "<group>"; };
+		3D8217561D3E1D710077850F /* PKTableViewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKTableViewHeaderView.h; sourceTree = "<group>"; };
+		3D8217571D3E1D710077850F /* PKTableViewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKTableViewHeaderView.m; sourceTree = "<group>"; };
+		3D8217671D3E1D7D0077850F /* PKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKViewController.h; sourceTree = "<group>"; };
+		3D8217681D3E1D7D0077850F /* PKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKViewController.m; sourceTree = "<group>"; };
+		3D82176B1D3E1EF70077850F /* PKUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKUIButton.h; sourceTree = "<group>"; };
+		3D82176C1D3E1EF70077850F /* PKUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKUIButton.m; sourceTree = "<group>"; };
+		3D82176F1D3E28210077850F /* PKLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKLabel.h; sourceTree = "<group>"; };
+		3D8217701D3E28210077850F /* PKLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKLabel.m; sourceTree = "<group>"; };
+		3D82177F1D3E286F0077850F /* PKTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKTextField.h; sourceTree = "<group>"; };
+		3D8217801D3E286F0077850F /* PKTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKTextField.m; sourceTree = "<group>"; };
+		3D8217821D3E3DF80077850F /* QMUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIKit.h; sourceTree = "<group>"; };
+		3D8217831D3E3E0D0077850F /* QMUIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIKit.m; sourceTree = "<group>"; };
+		3D8217891D3E43CD0077850F /* PKTableViewCellItemProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKTableViewCellItemProtocol.h; sourceTree = "<group>"; };
+		3D82178B1D3E46CF0077850F /* PKUIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKUIColor.h; sourceTree = "<group>"; };
+		3DDBF69B1D3F86E70001B327 /* QMKit.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMKit.pch; sourceTree = "<group>"; };
+		3DE3BA571D3F9E1A00CDB5DE /* NSString+Predicate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Predicate.h"; sourceTree = "<group>"; };
+		3DE3BA581D3F9E1A00CDB5DE /* NSString+Predicate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Predicate.m"; sourceTree = "<group>"; };
+		3DE3BA591D3F9E1A00CDB5DE /* UIView+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animation.h"; sourceTree = "<group>"; };
+		3DE3BA5A1D3F9E1A00CDB5DE /* UIView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D8217231D3E1CD10077850F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D82171D1D3E1CD10077850F = {
+			isa = PBXGroup;
+			children = (
+				3D8217281D3E1CD10077850F /* QMKit */,
+				3D8217271D3E1CD10077850F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D8217271D3E1CD10077850F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D8217261D3E1CD10077850F /* libQMKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D8217281D3E1CD10077850F /* QMKit */ = {
+			isa = PBXGroup;
+			children = (
+				3D8217321D3E1CE60077850F /* QMFoundation */,
+				3D8217331D3E1CE60077850F /* QMUIKit */,
+			);
+			path = QMKit;
+			sourceTree = "<group>";
+		};
+		3D8217321D3E1CE60077850F /* QMFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				3DE3BA561D3F9E1A00CDB5DE /* Category */,
+				3D8217851D3E43CD0077850F /* Protocol */,
+				3D8217341D3E1CFB0077850F /* Model */,
+			);
+			path = QMFoundation;
+			sourceTree = "<group>";
+		};
+		3D8217331D3E1CE60077850F /* QMUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				3D82177E1D3E286F0077850F /* TextField */,
+				3D82176E1D3E28210077850F /* Label */,
+				3D82176A1D3E1EF70077850F /* Button */,
+				3D8217661D3E1D7D0077850F /* ViewController */,
+				3D8217381D3E1D710077850F /* UITableView */,
+				3D8217821D3E3DF80077850F /* QMUIKit.h */,
+				3D8217831D3E3E0D0077850F /* QMUIKit.m */,
+				3D82178B1D3E46CF0077850F /* PKUIColor.h */,
+				3DDBF69B1D3F86E70001B327 /* QMKit.pch */,
+			);
+			path = QMUIKit;
+			sourceTree = "<group>";
+		};
+		3D8217341D3E1CFB0077850F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D8217351D3E1CFB0077850F /* PKDataModel.h */,
+				3D8217361D3E1CFB0077850F /* PKDataModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3D8217381D3E1D710077850F /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				3D8217391D3E1D710077850F /* Category */,
+				3D82173C1D3E1D710077850F /* Cell */,
+				3D8217491D3E1D710077850F /* DataConstructor */,
+				3D82174E1D3E1D710077850F /* PKIndexPathArray.h */,
+				3D82174F1D3E1D710077850F /* PKIndexPathArray.m */,
+				3D8217501D3E1D710077850F /* PKTableView.h */,
+				3D8217511D3E1D710077850F /* PKTableView.m */,
+				3D8217521D3E1D710077850F /* PKTableViewAdaptor.h */,
+				3D8217531D3E1D710077850F /* PKTableViewAdaptor.m */,
+				3D8217541D3E1D710077850F /* PKTableViewController.h */,
+				3D8217551D3E1D710077850F /* PKTableViewController.m */,
+				3D8217561D3E1D710077850F /* PKTableViewHeaderView.h */,
+				3D8217571D3E1D710077850F /* PKTableViewHeaderView.m */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		3D8217391D3E1D710077850F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3D82173A1D3E1D710077850F /* PKTableView+Category.h */,
+				3D82173B1D3E1D710077850F /* PKTableView+Category.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		3D82173C1D3E1D710077850F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3D82173D1D3E1D710077850F /* PKIntroTableViewCell.h */,
+				3D82173E1D3E1D710077850F /* PKIntroTableViewCell.m */,
+				3D82173F1D3E1D710077850F /* PKNullTableViewCell.h */,
+				3D8217401D3E1D710077850F /* PKNullTableViewCell.m */,
+				3D8217411D3E1D710077850F /* PKOneButtonCell.h */,
+				3D8217421D3E1D710077850F /* PKOneButtonCell.m */,
+				3D8217451D3E1D710077850F /* PKTableViewCell.h */,
+				3D8217461D3E1D710077850F /* PKTableViewCell.m */,
+				3D8217471D3E1D710077850F /* PKTableViewLineCell.h */,
+				3D8217481D3E1D710077850F /* PKTableViewLineCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		3D8217491D3E1D710077850F /* DataConstructor */ = {
+			isa = PBXGroup;
+			children = (
+				3D82174A1D3E1D710077850F /* PKNetWorkDataConstructor.h */,
+				3D82174B1D3E1D710077850F /* PKNetWorkDataConstructor.m */,
+				3D82174C1D3E1D710077850F /* PKTableViewDataConstructor.h */,
+				3D82174D1D3E1D710077850F /* PKTableViewDataConstructor.m */,
+			);
+			path = DataConstructor;
+			sourceTree = "<group>";
+		};
+		3D8217661D3E1D7D0077850F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3D8217671D3E1D7D0077850F /* PKViewController.h */,
+				3D8217681D3E1D7D0077850F /* PKViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3D82176A1D3E1EF70077850F /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				3D82176B1D3E1EF70077850F /* PKUIButton.h */,
+				3D82176C1D3E1EF70077850F /* PKUIButton.m */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		3D82176E1D3E28210077850F /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				3D82176F1D3E28210077850F /* PKLabel.h */,
+				3D8217701D3E28210077850F /* PKLabel.m */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
+		3D82177E1D3E286F0077850F /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				3D82177F1D3E286F0077850F /* PKTextField.h */,
+				3D8217801D3E286F0077850F /* PKTextField.m */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		3D8217851D3E43CD0077850F /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				3D8217891D3E43CD0077850F /* PKTableViewCellItemProtocol.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		3DE3BA561D3F9E1A00CDB5DE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3DE3BA571D3F9E1A00CDB5DE /* NSString+Predicate.h */,
+				3DE3BA581D3F9E1A00CDB5DE /* NSString+Predicate.m */,
+				3DE3BA591D3F9E1A00CDB5DE /* UIView+Animation.h */,
+				3DE3BA5A1D3F9E1A00CDB5DE /* UIView+Animation.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D8217251D3E1CD10077850F /* QMKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D82172F1D3E1CD10077850F /* Build configuration list for PBXNativeTarget "QMKit" */;
+			buildPhases = (
+				3D8217221D3E1CD10077850F /* Sources */,
+				3D8217231D3E1CD10077850F /* Frameworks */,
+				3D8217241D3E1CD10077850F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QMKit;
+			productName = QMKit;
+			productReference = 3D8217261D3E1CD10077850F /* libQMKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D82171E1D3E1CD10077850F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = BBFC;
+				TargetAttributes = {
+					3D8217251D3E1CD10077850F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3D8217211D3E1CD10077850F /* Build configuration list for PBXProject "QMKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3D82171D1D3E1CD10077850F;
+			productRefGroup = 3D8217271D3E1CD10077850F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D8217251D3E1CD10077850F /* QMKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D8217221D3E1CD10077850F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8217611D3E1D710077850F /* PKIndexPathArray.m in Sources */,
+				3D8217791D3E28210077850F /* PKLabel.m in Sources */,
+				3D8217591D3E1D710077850F /* PKIntroTableViewCell.m in Sources */,
+				3DE3BA5B1D3F9E1A00CDB5DE /* NSString+Predicate.m in Sources */,
+				3D82176D1D3E1EF70077850F /* PKUIButton.m in Sources */,
+				3D8217631D3E1D710077850F /* PKTableViewAdaptor.m in Sources */,
+				3D82175A1D3E1D710077850F /* PKNullTableViewCell.m in Sources */,
+				3D8217581D3E1D710077850F /* PKTableView+Category.m in Sources */,
+				3D82175F1D3E1D710077850F /* PKNetWorkDataConstructor.m in Sources */,
+				3D8217641D3E1D710077850F /* PKTableViewController.m in Sources */,
+				3D8217691D3E1D7D0077850F /* PKViewController.m in Sources */,
+				3D8217811D3E286F0077850F /* PKTextField.m in Sources */,
+				3D82175B1D3E1D710077850F /* PKOneButtonCell.m in Sources */,
+				3D8217841D3E3E0D0077850F /* QMUIKit.m in Sources */,
+				3D8217651D3E1D710077850F /* PKTableViewHeaderView.m in Sources */,
+				3DE3BA5C1D3F9E1A00CDB5DE /* UIView+Animation.m in Sources */,
+				3D8217371D3E1CFB0077850F /* PKDataModel.m in Sources */,
+				3D82175E1D3E1D710077850F /* PKTableViewLineCell.m in Sources */,
+				3D82175D1D3E1D710077850F /* PKTableViewCell.m in Sources */,
+				3D8217621D3E1D710077850F /* PKTableView.m in Sources */,
+				3D8217601D3E1D710077850F /* PKTableViewDataConstructor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3D82172D1D3E1CD10077850F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/QMKit/QMUIKit/QMKit.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+				USE_HEADERMAP = YES;
+			};
+			name = Debug;
+		};
+		3D82172E1D3E1CD10077850F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/QMKit/QMUIKit/QMKit.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+				USE_HEADERMAP = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D8217301D3E1CD10077850F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3D8217311D3E1CD10077850F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D8217211D3E1CD10077850F /* Build configuration list for PBXProject "QMKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D82172D1D3E1CD10077850F /* Debug */,
+				3D82172E1D3E1CD10077850F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D82172F1D3E1CD10077850F /* Build configuration list for PBXNativeTarget "QMKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D8217301D3E1CD10077850F /* Debug */,
+				3D8217311D3E1CD10077850F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D82171E1D3E1CD10077850F /* Project object */;
+}

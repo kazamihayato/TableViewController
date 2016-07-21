@@ -1,0 +1,18 @@
+//
+//  UITableViewControllerDemo.pch
+//  UITableViewControlelrDemo
+//
+//  Created by 庄BB的MacBook on 16/7/19.
+//  Copyright © 2016年 BBFC. All rights reserved.
+//
+
+#ifndef UITableViewControllerDemo_pch
+#define UITableViewControllerDemo_pch
+
+
+#import "QMUIKit.h"
+
+#define WEAK_SELF __weak typeof(self)weakSelf = self
+#define STRONG_SELF __strong typeof(weakSelf)self = weakSelf
+
+#endif /* UITableViewControllerDemo_pch */

@@ -9,12 +9,22 @@
 /* Begin PBXBuildFile section */
 		3D82163D1D3CB3880077850F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D82163C1D3CB3880077850F /* main.m */; };
 		3D8216401D3CB3880077850F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D82163F1D3CB3880077850F /* AppDelegate.m */; };
-		3D8216431D3CB3880077850F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8216421D3CB3880077850F /* ViewController.m */; };
-		3D8216461D3CB3880077850F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8216441D3CB3880077850F /* Main.storyboard */; };
 		3D8216481D3CB3880077850F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D8216471D3CB3880077850F /* Assets.xcassets */; };
 		3D82164B1D3CB3880077850F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8216491D3CB3880077850F /* LaunchScreen.storyboard */; };
 		3D8216561D3CB3890077850F /* UITableViewControlelrDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8216551D3CB3890077850F /* UITableViewControlelrDemoTests.m */; };
 		3D8216611D3CB3890077850F /* UITableViewControlelrDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8216601D3CB3890077850F /* UITableViewControlelrDemoUITests.m */; };
+		3D8216D31D3CD9600077850F /* PKWBindButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8216A41D3CD9600077850F /* PKWBindButtonCell.m */; };
+		3D8216D41D3CD9600077850F /* PKWLoginActionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8216A61D3CD9600077850F /* PKWLoginActionCell.m */; };
+		3D8216D51D3CD9600077850F /* PKWLoginFiledCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8216A81D3CD9600077850F /* PKWLoginFiledCell.m */; };
+		3D8216D61D3CD9600077850F /* PKWLoginHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8216AA1D3CD9600077850F /* PKWLoginHeaderCell.m */; };
+		3D8216D71D3CD9600077850F /* PKWLoginNoticeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8216AC1D3CD9600077850F /* PKWLoginNoticeCell.m */; };
+		3D8216D81D3CD9600077850F /* PKWLoginStyleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8216AE1D3CD9600077850F /* PKWLoginStyleCell.m */; };
+		3D8216D91D3CD9600077850F /* PKWRegistDealCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8216B01D3CD9600077850F /* PKWRegistDealCell.m */; };
+		3D8216DA1D3CD9600077850F /* PKWThirdLoginCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8216B21D3CD9600077850F /* PKWThirdLoginCell.m */; };
+		3D8216E31D3CD9600077850F /* PKWLoginConstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8216C81D3CD9600077850F /* PKWLoginConstructor.m */; };
+		3D8216E41D3CD9600077850F /* PKWLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8216CA1D3CD9600077850F /* PKWLoginViewController.m */; };
+		3D8216E71D3CD9600077850F /* PKWTimerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8216D21D3CD9600077850F /* PKWTimerButton.m */; };
+		3D82181E1D3F82030077850F /* libQMKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D82181D1D3F82030077850F /* libQMKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +49,6 @@
 		3D82163C1D3CB3880077850F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3D82163E1D3CB3880077850F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3D82163F1D3CB3880077850F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3D8216411D3CB3880077850F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3D8216421D3CB3880077850F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3D8216451D3CB3880077850F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D8216471D3CB3880077850F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D82164A1D3CB3880077850F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D82164C1D3CB3880077850F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +58,30 @@
 		3D82165C1D3CB3890077850F /* UITableViewControlelrDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewControlelrDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D8216601D3CB3890077850F /* UITableViewControlelrDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewControlelrDemoUITests.m; sourceTree = "<group>"; };
 		3D8216621D3CB3890077850F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D8216A31D3CD9600077850F /* PKWBindButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKWBindButtonCell.h; sourceTree = "<group>"; };
+		3D8216A41D3CD9600077850F /* PKWBindButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKWBindButtonCell.m; sourceTree = "<group>"; };
+		3D8216A51D3CD9600077850F /* PKWLoginActionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKWLoginActionCell.h; sourceTree = "<group>"; };
+		3D8216A61D3CD9600077850F /* PKWLoginActionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKWLoginActionCell.m; sourceTree = "<group>"; };
+		3D8216A71D3CD9600077850F /* PKWLoginFiledCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKWLoginFiledCell.h; sourceTree = "<group>"; };
+		3D8216A81D3CD9600077850F /* PKWLoginFiledCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKWLoginFiledCell.m; sourceTree = "<group>"; };
+		3D8216A91D3CD9600077850F /* PKWLoginHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKWLoginHeaderCell.h; sourceTree = "<group>"; };
+		3D8216AA1D3CD9600077850F /* PKWLoginHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKWLoginHeaderCell.m; sourceTree = "<group>"; };
+		3D8216AB1D3CD9600077850F /* PKWLoginNoticeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKWLoginNoticeCell.h; sourceTree = "<group>"; };
+		3D8216AC1D3CD9600077850F /* PKWLoginNoticeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKWLoginNoticeCell.m; sourceTree = "<group>"; };
+		3D8216AD1D3CD9600077850F /* PKWLoginStyleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKWLoginStyleCell.h; sourceTree = "<group>"; };
+		3D8216AE1D3CD9600077850F /* PKWLoginStyleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKWLoginStyleCell.m; sourceTree = "<group>"; };
+		3D8216AF1D3CD9600077850F /* PKWRegistDealCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKWRegistDealCell.h; sourceTree = "<group>"; };
+		3D8216B01D3CD9600077850F /* PKWRegistDealCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKWRegistDealCell.m; sourceTree = "<group>"; };
+		3D8216B11D3CD9600077850F /* PKWThirdLoginCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKWThirdLoginCell.h; sourceTree = "<group>"; };
+		3D8216B21D3CD9600077850F /* PKWThirdLoginCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKWThirdLoginCell.m; sourceTree = "<group>"; };
+		3D8216C71D3CD9600077850F /* PKWLoginConstructor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKWLoginConstructor.h; sourceTree = "<group>"; };
+		3D8216C81D3CD9600077850F /* PKWLoginConstructor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKWLoginConstructor.m; sourceTree = "<group>"; };
+		3D8216C91D3CD9600077850F /* PKWLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKWLoginViewController.h; sourceTree = "<group>"; };
+		3D8216CA1D3CD9600077850F /* PKWLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKWLoginViewController.m; sourceTree = "<group>"; };
+		3D8216D11D3CD9600077850F /* PKWTimerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKWTimerButton.h; sourceTree = "<group>"; };
+		3D8216D21D3CD9600077850F /* PKWTimerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKWTimerButton.m; sourceTree = "<group>"; };
+		3D8216F21D3DFC4C0077850F /* UITableViewControllerDemo.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewControllerDemo.pch; sourceTree = "<group>"; };
+		3D82181D1D3F82030077850F /* libQMKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libQMKit.a; path = "../../QMKit/build/Debug-iphoneos/libQMKit.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D82181E1D3F82030077850F /* libQMKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,11 +133,9 @@
 		3D82163A1D3CB3880077850F /* UITableViewControlelrDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3D8216A11D3CD9600077850F /* Login */,
 				3D82163E1D3CB3880077850F /* AppDelegate.h */,
 				3D82163F1D3CB3880077850F /* AppDelegate.m */,
-				3D8216411D3CB3880077850F /* ViewController.h */,
-				3D8216421D3CB3880077850F /* ViewController.m */,
-				3D8216441D3CB3880077850F /* Main.storyboard */,
 				3D8216471D3CB3880077850F /* Assets.xcassets */,
 				3D8216491D3CB3880077850F /* LaunchScreen.storyboard */,
 				3D82164C1D3CB3880077850F /* Info.plist */,
@@ -117,7 +147,9 @@
 		3D82163B1D3CB3880077850F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3D82181D1D3F82030077850F /* libQMKit.a */,
 				3D82163C1D3CB3880077850F /* main.m */,
+				3D8216F21D3DFC4C0077850F /* UITableViewControllerDemo.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +170,67 @@
 				3D8216621D3CB3890077850F /* Info.plist */,
 			);
 			path = UITableViewControlelrDemoUITests;
+			sourceTree = "<group>";
+		};
+		3D8216A11D3CD9600077850F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3D8216A21D3CD9600077850F /* Cell */,
+				3D8216B31D3CD9600077850F /* Controller */,
+				3D8216D01D3CD9600077850F /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		3D8216A21D3CD9600077850F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3D8216A31D3CD9600077850F /* PKWBindButtonCell.h */,
+				3D8216A41D3CD9600077850F /* PKWBindButtonCell.m */,
+				3D8216A51D3CD9600077850F /* PKWLoginActionCell.h */,
+				3D8216A61D3CD9600077850F /* PKWLoginActionCell.m */,
+				3D8216A71D3CD9600077850F /* PKWLoginFiledCell.h */,
+				3D8216A81D3CD9600077850F /* PKWLoginFiledCell.m */,
+				3D8216A91D3CD9600077850F /* PKWLoginHeaderCell.h */,
+				3D8216AA1D3CD9600077850F /* PKWLoginHeaderCell.m */,
+				3D8216AB1D3CD9600077850F /* PKWLoginNoticeCell.h */,
+				3D8216AC1D3CD9600077850F /* PKWLoginNoticeCell.m */,
+				3D8216AD1D3CD9600077850F /* PKWLoginStyleCell.h */,
+				3D8216AE1D3CD9600077850F /* PKWLoginStyleCell.m */,
+				3D8216AF1D3CD9600077850F /* PKWRegistDealCell.h */,
+				3D8216B01D3CD9600077850F /* PKWRegistDealCell.m */,
+				3D8216B11D3CD9600077850F /* PKWThirdLoginCell.h */,
+				3D8216B21D3CD9600077850F /* PKWThirdLoginCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		3D8216B31D3CD9600077850F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3D8216C61D3CD9600077850F /* Login */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3D8216C61D3CD9600077850F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3D8216C71D3CD9600077850F /* PKWLoginConstructor.h */,
+				3D8216C81D3CD9600077850F /* PKWLoginConstructor.m */,
+				3D8216C91D3CD9600077850F /* PKWLoginViewController.h */,
+				3D8216CA1D3CD9600077850F /* PKWLoginViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		3D8216D01D3CD9600077850F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D8216D11D3CD9600077850F /* PKWTimerButton.h */,
+				3D8216D21D3CD9600077850F /* PKWTimerButton.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,7 +338,6 @@
 			files = (
 				3D82164B1D3CB3880077850F /* LaunchScreen.storyboard in Resources */,
 				3D8216481D3CB3880077850F /* Assets.xcassets in Resources */,
-				3D8216461D3CB3880077850F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +362,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D8216431D3CB3880077850F /* ViewController.m in Sources */,
+				3D8216D31D3CD9600077850F /* PKWBindButtonCell.m in Sources */,
+				3D8216D51D3CD9600077850F /* PKWLoginFiledCell.m in Sources */,
+				3D8216D41D3CD9600077850F /* PKWLoginActionCell.m in Sources */,
+				3D8216DA1D3CD9600077850F /* PKWThirdLoginCell.m in Sources */,
+				3D8216E71D3CD9600077850F /* PKWTimerButton.m in Sources */,
+				3D8216D81D3CD9600077850F /* PKWLoginStyleCell.m in Sources */,
+				3D8216E31D3CD9600077850F /* PKWLoginConstructor.m in Sources */,
+				3D8216E41D3CD9600077850F /* PKWLoginViewController.m in Sources */,
 				3D8216401D3CB3880077850F /* AppDelegate.m in Sources */,
+				3D8216D61D3CD9600077850F /* PKWLoginHeaderCell.m in Sources */,
 				3D82163D1D3CB3880077850F /* main.m in Sources */,
+				3D8216D91D3CD9600077850F /* PKWRegistDealCell.m in Sources */,
+				3D8216D71D3CD9600077850F /* PKWLoginNoticeCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +410,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3D8216441D3CB3880077850F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3D8216451D3CB3880077850F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3D8216491D3CB3880077850F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,22 +506,38 @@
 		3D8216661D3CB3890077850F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/UITableViewControlelrDemo/UITableViewControllerDemo.pch";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = UITableViewControlelrDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = ZBB.UITableViewControlelrDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SHARED_PRECOMPS_DIR = "";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../QMKit/QMKit/**";
 			};
 			name = Debug;
 		};
 		3D8216671D3CB3890077850F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/UITableViewControlelrDemo/UITableViewControllerDemo.pch";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = UITableViewControlelrDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = ZBB.UITableViewControlelrDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SHARED_PRECOMPS_DIR = "";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../QMKit/QMKit/**";
 			};
 			name = Release;
 		};
@@ -496,6 +606,7 @@
 				3D8216671D3CB3890077850F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D8216681D3CB3890077850F /* Build configuration list for PBXNativeTarget "UITableViewControlelrDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +615,7 @@
 				3D82166A1D3CB3890077850F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D82166B1D3CB3890077850F /* Build configuration list for PBXNativeTarget "UITableViewControlelrDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +624,7 @@
 				3D82166D1D3CB3890077850F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

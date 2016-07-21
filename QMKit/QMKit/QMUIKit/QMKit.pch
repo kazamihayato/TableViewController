@@ -1,0 +1,14 @@
+//
+//  QMKit.pch
+//  QMKit
+//
+//  Created by 庄BB的MacBook on 16/7/20.
+//  Copyright © 2016年 BBFC. All rights reserved.
+//
+
+#ifndef QMKit_pch
+#define QMKit_pch
+
+#import "QMUIKit.h"
+
+#endif /* QMKit_pch */
